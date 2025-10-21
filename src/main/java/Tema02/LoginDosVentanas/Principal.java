@@ -37,7 +37,7 @@ public class Principal extends JFrame {                    // Hereda de JFrame p
 
     private static final Path RUTA_USUARIOS =              // Ruta al fichero de usuarios.txt
             Paths.get(System.getProperty("user.dir"),      // Carpeta del proyecto en ejecución
-                      "data",                              // Subcarpeta "data"
+                      "src", "data",                       // Subcarpeta "data"
                       "usuarios.txt");                     // Nombre del fichero
 
      // -------------------- CAMPOS DE UI --------------------
